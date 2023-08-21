@@ -13,6 +13,12 @@
   }
 }
 
+table,
+th,
+td {
+  border: 1px solid;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,8 +26,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 16px;
   color: white;
+}
+
+.App-command {
+  display: flex;
+}
+
+.App-table {
+  margin-top: 100px;
+}
+
+#commandDiv > * {
+  margin-left: 20px;
 }
 
 .App-link {
